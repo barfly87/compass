@@ -298,5 +298,3 @@ INSERT INTO block_pbl_seq VALUES (DEFAULT, 20, 6, 6);
 
 --Degree project in Health Informatics
 INSERT INTO block_pbl_seq VALUES (DEFAULT, 21, 2, 2);
-
---INSERT INTO block_pbl_seq VALUES (DEFAULT, 33, 2, 2);
