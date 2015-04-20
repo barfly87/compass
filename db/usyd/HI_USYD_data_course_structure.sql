@@ -156,58 +156,58 @@ INSERT INTO lk_blockweek VALUES (DEFAULT, 30);
 
 -- BLOCK_PBL_SEQ (block_pbl_seq)
 --HI needs objectives and limitations
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 1, 7, 7);
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 1, 8, 8);
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 1, 9, 9);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 1, 2, 7);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 1, 3, 8);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 1, 4, 9);
 
 --Basic Medical Science
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 2, 10, 10);
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 2, 11, 11);
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 2, 12, 12);
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 2, 13, 13);
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 2, 14, 14);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 2, 2, 10);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 2, 3, 11);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 2, 4, 12);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 2, 5, 13);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 2, 6, 14);
 
 --Health Care Organization and Management
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 3, 15, 15);
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 3, 16, 16);
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 3, 17, 17);
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 3, 18, 18);
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 3, 19, 19);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 3, 2, 15);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 3, 3, 16);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 3, 4, 17);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 3, 5, 18);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 3, 6, 19);
 
 --Computer Applications in Health Care and Biomedicine
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 4, 20, 20);
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 4, 21, 21);
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 4, 22, 22);
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 4, 23, 23);
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 4, 24, 24);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 4, 2, 20);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 4, 3, 21);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 4, 4, 22);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 4, 5, 23);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 4, 6, 24);
 
 --User Needs and Requirements Engineering
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 5, 25, 25);
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 5, 26, 26);
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 5, 27, 27);
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 5, 28, 28);
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 5, 29, 29);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 5, 2, 25);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 5, 3, 26);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 5, 4, 27);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 5, 5, 28);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 5, 6, 29);
 
 --Evaluation Methods for Health Informatics
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 6, 30, 30);
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 6, 31, 31);
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 6, 32, 32);
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 6, 33, 33);
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 6, 34, 34);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 6, 2, 30);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 6, 3, 31);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 6, 4, 32);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 6, 5, 33);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 6, 6, 34);
 
 --Standardisation within health informatics
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 7, 35, 35);
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 7, 36, 36);
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 7, 37, 37);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 7, 2, 35);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 7, 3, 36);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 7, 4, 37);
 --INSERT INTO block_pbl_seq VALUES (DEFAULT, 7, 5, 5);
 --INSERT INTO block_pbl_seq VALUES (DEFAULT, 7, 6, 6);
 
 --Projects in Health Informatics 1 – from Idea to Specification
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 8, 38, 38);
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 8, 39, 39);
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 8, 40, 40);
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 8, 41, 41);
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 8, 42, 42);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 8, 2, 38);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 8, 3, 39);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 8, 4, 40);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 8, 5, 41);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 8, 6, 42);
 
 INSERT INTO block_pbl_seq VALUES (DEFAULT, 9, 2, 2);
 INSERT INTO block_pbl_seq VALUES (DEFAULT, 9, 3, 3);
