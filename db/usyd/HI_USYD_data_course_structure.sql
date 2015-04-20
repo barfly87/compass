@@ -212,30 +212,91 @@ INSERT INTO block_pbl_seq VALUES (DEFAULT, 8, 4, 40);
 INSERT INTO block_pbl_seq VALUES (DEFAULT, 8, 5, 41);
 INSERT INTO block_pbl_seq VALUES (DEFAULT, 8, 6, 42);
 
+--Projects in Health Informatics 2 - project and information management
 INSERT INTO block_pbl_seq VALUES (DEFAULT, 9, 2, 2);
 INSERT INTO block_pbl_seq VALUES (DEFAULT, 9, 3, 3);
 INSERT INTO block_pbl_seq VALUES (DEFAULT, 9, 4, 4);
 INSERT INTO block_pbl_seq VALUES (DEFAULT, 9, 5, 5);
 INSERT INTO block_pbl_seq VALUES (DEFAULT, 9, 6, 6);
 
+--Case Studies in Health Informatics
 INSERT INTO block_pbl_seq VALUES (DEFAULT, 10, 2, 2);
 INSERT INTO block_pbl_seq VALUES (DEFAULT, 10, 3, 3);
 INSERT INTO block_pbl_seq VALUES (DEFAULT, 10, 4, 4);
 INSERT INTO block_pbl_seq VALUES (DEFAULT, 10, 5, 5);
 INSERT INTO block_pbl_seq VALUES (DEFAULT, 10, 6, 6);
 
+--Clinical Decision Support
 INSERT INTO block_pbl_seq VALUES (DEFAULT, 11, 2, 2);
 INSERT INTO block_pbl_seq VALUES (DEFAULT, 11, 3, 3);
 INSERT INTO block_pbl_seq VALUES (DEFAULT, 11, 4, 4);
 INSERT INTO block_pbl_seq VALUES (DEFAULT, 11, 5, 5);
 INSERT INTO block_pbl_seq VALUES (DEFAULT, 11, 6, 6);
 
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 21, 2, 1);
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 21, 3, 2);
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 21, 4, 3);
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 21, 5, 4);
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 21, 6, 5);
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 21, 7, 6);
+--Modelling, Simulation and Visualisation in Health Informatics
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 12, 2, 2);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 12, 3, 3);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 12, 4, 4);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 12, 5, 5);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 12, 6, 6);
 
+--Data Mining in Computer and System Sciences
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 13, 2, 2);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 13, 3, 3);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 13, 4, 4);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 13, 5, 5);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 13, 6, 6);
 
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 33, 2, 2);
+--Principles of Computer Security
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 14, 2, 2);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 14, 3, 3);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 14, 4, 4);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 14, 5, 5);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 14, 6, 6);
+
+--Scientific Communication and Research Methodology
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 15, 2, 2);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 15, 3, 3);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 15, 4, 4);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 15, 5, 5);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 15, 6, 6);
+
+--Project Management
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 16, 2, 2);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 16, 3, 3);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 16, 4, 4);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 16, 5, 5);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 16, 6, 6);
+
+--From Idea to Service Business
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 17, 2, 2);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 17, 3, 3);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 17, 4, 4);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 17, 5, 5);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 17, 6, 6);
+
+--Scientific Research Methods
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 18, 2, 2);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 18, 3, 3);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 18, 4, 4);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 18, 5, 5);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 18, 6, 6);
+
+--Informatics and improvement work in healthcare organisations
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 19, 2, 2);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 19, 3, 3);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 19, 4, 4);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 19, 5, 5);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 19, 6, 6);
+
+--Advanced course in Health and Medical Care Management
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 20, 2, 2);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 20, 3, 3);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 20, 4, 4);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 20, 5, 5);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 20, 6, 6);
+
+--Degree project in Health Informatics
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 21, 2, 2);
+
+--INSERT INTO block_pbl_seq VALUES (DEFAULT, 33, 2, 2);
