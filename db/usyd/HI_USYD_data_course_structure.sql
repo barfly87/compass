@@ -60,6 +60,12 @@ INSERT INTO stage_block_seq VALUES (DEFAULT, 5, 25, 12, 1);
 
 
 -- BLOCK (lk_pbl)
+INSERT INTO lk_pbl VALUES(DEFAULT, '', ''); --1
+INSERT INTO lk_pbl VALUES(DEFAULT, 'Week 1', 'Introduction Week'); --2
+INSERT INTO lk_pbl VALUES(DEFAULT, 'Week 2', 'Group work Week'); --3
+INSERT INTO lk_pbl VALUES(DEFAULT, 'Week 3', 'Self study Week'); --4
+INSERT INTO lk_pbl VALUES(DEFAULT, 'Week 4', 'Presentation Week'); --5
+INSERT INTO lk_pbl VALUES(DEFAULT, 'Week 5', 'Examination Week'); --6
 
 --HI needs objectives and limitations
 INSERT INTO lk_pbl VALUES(DEFAULT, 'Week 1', 'Introduction: HI as scientific and professional area'); --7
@@ -113,12 +119,7 @@ INSERT INTO lk_pbl VALUES(DEFAULT, 'Week 3', 'Leadership'); --40
 INSERT INTO lk_pbl VALUES(DEFAULT, 'Week 4', 'Conflict management'); --41
 INSERT INTO lk_pbl VALUES(DEFAULT, 'Week 5', 'Documentation'); --42
 
-INSERT INTO lk_pbl VALUES(DEFAULT, '', ''); --1
-INSERT INTO lk_pbl VALUES(DEFAULT, 'Week 1', 'Introduction Week'); --2
-INSERT INTO lk_pbl VALUES(DEFAULT, 'Week 2', 'Group work Week'); --3
-INSERT INTO lk_pbl VALUES(DEFAULT, 'Week 3', 'Self study Week'); --4
-INSERT INTO lk_pbl VALUES(DEFAULT, 'Week 4', 'Presentation Week'); --5
-INSERT INTO lk_pbl VALUES(DEFAULT, 'Week 5', 'Examination Week'); --6
+
 
 -- BLOCK WEEK (lk_blockweek)
 INSERT INTO lk_blockweek VALUES (DEFAULT, NULL);
