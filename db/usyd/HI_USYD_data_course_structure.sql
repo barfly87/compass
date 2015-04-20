@@ -60,12 +60,65 @@ INSERT INTO stage_block_seq VALUES (DEFAULT, 5, 25, 12, 1);
 
 
 -- BLOCK (lk_pbl)
-INSERT INTO lk_pbl VALUES(DEFAULT, '', '');
-INSERT INTO lk_pbl VALUES(DEFAULT, 'Week 1', 'Introduction Week');
-INSERT INTO lk_pbl VALUES(DEFAULT, 'Week 2', 'Group work Week');
-INSERT INTO lk_pbl VALUES(DEFAULT, 'Week 3', 'Self study Week');
-INSERT INTO lk_pbl VALUES(DEFAULT, 'Week 4', 'Presentation Week');
-INSERT INTO lk_pbl VALUES(DEFAULT, 'Week 5', 'Examination Week');
+INSERT INTO lk_pbl VALUES(DEFAULT, '', ''); --1
+INSERT INTO lk_pbl VALUES(DEFAULT, 'Week 1', 'Introduction Week'); --2
+INSERT INTO lk_pbl VALUES(DEFAULT, 'Week 2', 'Group work Week'); --3
+INSERT INTO lk_pbl VALUES(DEFAULT, 'Week 3', 'Self study Week'); --4
+INSERT INTO lk_pbl VALUES(DEFAULT, 'Week 4', 'Presentation Week'); --5
+INSERT INTO lk_pbl VALUES(DEFAULT, 'Week 5', 'Examination Week'); --6
+
+--HI needs objectives and limitations
+INSERT INTO lk_pbl VALUES(DEFAULT, 'Week 1', 'Introduction: HI as scientific and professional area'); --7
+INSERT INTO lk_pbl VALUES(DEFAULT, 'Week 1', 'Healthinformaticians roles in HI projects'); --8
+INSERT INTO lk_pbl VALUES(DEFAULT, 'Week 2', 'International perspective of HI'); --9
+
+--Basic Medical Science
+INSERT INTO lk_pbl VALUES(DEFAULT, 'Week 3', 'Anatomy 1'); --10
+INSERT INTO lk_pbl VALUES(DEFAULT, 'Week 4', 'Anatomy 2'); --11
+INSERT INTO lk_pbl VALUES(DEFAULT, 'Week 5', 'Physiology 1'); --12
+INSERT INTO lk_pbl VALUES(DEFAULT, 'Week 1', 'Physiology 2'); --13
+INSERT INTO lk_pbl VALUES(DEFAULT, 'Week 1', 'Self study - examination'); --14
+
+--Health Care Organization and Management
+INSERT INTO lk_pbl VALUES(DEFAULT, 'Week 2', 'Healthcare organization issues'); --15
+INSERT INTO lk_pbl VALUES(DEFAULT, 'Week 3', 'International perspective of healthcare organization '); --16
+INSERT INTO lk_pbl VALUES(DEFAULT, 'Week 4', 'Healthcare organization quality assessment'); --17
+INSERT INTO lk_pbl VALUES(DEFAULT, 'Week 5', 'Healthcare organization information flow'); --18
+INSERT INTO lk_pbl VALUES(DEFAULT, 'Week 1', 'Healthcare organization needs'); --19
+
+--Computer Applications in Health Care and Biomedicine
+INSERT INTO lk_pbl VALUES(DEFAULT, 'Week 1', 'HI history and development'); --20
+INSERT INTO lk_pbl VALUES(DEFAULT, 'Week 2', 'eHealth'); --21
+INSERT INTO lk_pbl VALUES(DEFAULT, 'Week 3', 'Clinical imaging'); --22
+INSERT INTO lk_pbl VALUES(DEFAULT, 'Week 4', 'Clinical decision support systems (CDSS)'); --23
+INSERT INTO lk_pbl VALUES(DEFAULT, 'Week 5', 'Electronic health records (EHR)'); --24
+
+--User Needs and Requirements Engineering
+INSERT INTO lk_pbl VALUES(DEFAULT, 'Week 1', 'Story telling'); --25
+INSERT INTO lk_pbl VALUES(DEFAULT, 'Week 1', 'UML basics'); --26
+INSERT INTO lk_pbl VALUES(DEFAULT, 'Week 2', 'Usecase project'); --27
+INSERT INTO lk_pbl VALUES(DEFAULT, 'Week 3', 'SRS writing'); --28
+INSERT INTO lk_pbl VALUES(DEFAULT, 'Week 4', 'Formative evaluation'); --29
+
+--Evaluation Methods for Health Informatics
+INSERT INTO lk_pbl VALUES(DEFAULT, 'Week 5', 'Summative evaluation'); --30
+INSERT INTO lk_pbl VALUES(DEFAULT, 'Week 1', 'Theory of conducting evaluations'); --31
+INSERT INTO lk_pbl VALUES(DEFAULT, 'Week 1', 'Evaluation methods'); --32
+INSERT INTO lk_pbl VALUES(DEFAULT, 'Week 2', 'Mini project'); --33
+INSERT INTO lk_pbl VALUES(DEFAULT, 'Week 3', 'Evaluation reports'); --34
+
+--Standardisation within health informatics
+INSERT INTO lk_pbl VALUES(DEFAULT, 'Week 4', 'Basics on HL7'); --35
+INSERT INTO lk_pbl VALUES(DEFAULT, 'Week 5', 'Other standards'); --36
+INSERT INTO lk_pbl VALUES(DEFAULT, 'Week 1', 'Laboratory'); --37
+
+--Projects in Health Informatics - from Idea to Specification
+INSERT INTO lk_pbl VALUES(DEFAULT, 'Week 1', 'Team development therories'); --38
+INSERT INTO lk_pbl VALUES(DEFAULT, 'Week 2', 'Project learning and roles'); --39
+INSERT INTO lk_pbl VALUES(DEFAULT, 'Week 3', 'Leadership'); --40
+INSERT INTO lk_pbl VALUES(DEFAULT, 'Week 4', 'Conflict management'); --41
+INSERT INTO lk_pbl VALUES(DEFAULT, 'Week 5', 'Documentation'); --42
+
 
 
 -- BLOCK WEEK (lk_blockweek)
@@ -102,52 +155,59 @@ INSERT INTO lk_blockweek VALUES (DEFAULT, 29);
 INSERT INTO lk_blockweek VALUES (DEFAULT, 30);
 
 -- BLOCK_PBL_SEQ (block_pbl_seq)
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 1, 2, 2);
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 1, 3, 3);
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 1, 4, 4);
+--HI needs objectives and limitations
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 1, 7, 7);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 1, 8, 8);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 1, 9, 9);
 
+--Basic Medical Science
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 2, 10, 10);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 2, 11, 11);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 2, 12, 12);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 2, 13, 13);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 2, 14, 14);
 
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 2, 2, 2);
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 2, 3, 3);
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 2, 4, 4);
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 2, 5, 5);
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 2, 6, 6);
+--Health Care Organization and Management
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 3, 15, 15);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 3, 16, 16);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 3, 17, 17);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 3, 18, 18);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 3, 19, 19);
 
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 3, 2, 2);
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 3, 3, 3);
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 3, 4, 4);
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 3, 5, 5);
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 3, 6, 6);
+--Computer Applications in Health Care and Biomedicine
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 4, 20, 20);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 4, 21, 21);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 4, 22, 22);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 4, 23, 23);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 4, 24, 24);
 
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 4, 2, 2);
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 4, 3, 3);
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 4, 4, 4);
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 4, 5, 5);
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 4, 6, 6);
+--User Needs and Requirements Engineering
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 5, 25, 25);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 5, 26, 26);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 5, 27, 27);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 5, 28, 28);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 5, 29, 29);
 
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 5, 2, 2);
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 5, 3, 3);
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 5, 4, 4);
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 5, 5, 5);
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 5, 6, 6);
+--Evaluation Methods for Health Informatics
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 6, 30, 30);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 6, 31, 31);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 6, 32, 32);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 6, 33, 33);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 6, 34, 34);
 
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 6, 2, 2);
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 6, 3, 3);
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 6, 4, 4);
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 6, 5, 5);
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 6, 6, 6);
+--Standardisation within health informatics
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 7, 35, 35);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 7, 36, 36);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 7, 37, 37);
+--INSERT INTO block_pbl_seq VALUES (DEFAULT, 7, 5, 5);
+--INSERT INTO block_pbl_seq VALUES (DEFAULT, 7, 6, 6);
 
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 7, 2, 2);
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 7, 3, 3);
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 7, 4, 4);
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 7, 5, 5);
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 7, 6, 6);
-
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 8, 2, 2);
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 8, 3, 3);
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 8, 4, 4);
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 8, 5, 5);
-INSERT INTO block_pbl_seq VALUES (DEFAULT, 8, 5, 6);
+--Projects in Health Informatics 1 – from Idea to Specification
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 8, 38, 38);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 8, 39, 39);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 8, 40, 40);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 8, 41, 41);
+INSERT INTO block_pbl_seq VALUES (DEFAULT, 8, 42, 42);
 
 INSERT INTO block_pbl_seq VALUES (DEFAULT, 9, 2, 2);
 INSERT INTO block_pbl_seq VALUES (DEFAULT, 9, 3, 3);
