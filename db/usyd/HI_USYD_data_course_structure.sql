@@ -154,7 +154,10 @@ INSERT INTO lk_blockweek VALUES (DEFAULT, 28);
 INSERT INTO lk_blockweek VALUES (DEFAULT, 29);
 INSERT INTO lk_blockweek VALUES (DEFAULT, 30);
 
--- BLOCK_PBL_SEQ (block_pbl_seq)
+-- BLOCK_PBL_SEQ (block_pbl_seq) to build the number and names of each week in the course
+-- First row corresponds to block
+-- Second row corresponds to number of weeks (sequence, starts from 01 to... next to the title)
+-- Third row row corresponds to name of the week from table lk_pbl above
 --HI needs objectives and limitations
 INSERT INTO block_pbl_seq VALUES (DEFAULT, 1, 2, 7);
 INSERT INTO block_pbl_seq VALUES (DEFAULT, 1, 3, 8);
